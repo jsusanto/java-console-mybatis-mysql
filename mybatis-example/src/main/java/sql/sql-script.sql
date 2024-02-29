@@ -1,0 +1,10 @@
+CREATE TABLE USER (
+  userid   INT NOT NULL	AUTO_INCREMENT,
+  username VARCHAR(64) NOT NULL,
+  PRIMARY KEY (userid));
+
+CREATE TABLE GROUPP (
+   groupid INT NOT NULL AUTO_INCREMENT,
+   groupname VARCHAR(64) NOT NULL,
+  PRIMARY KEY (groupid)
+);
